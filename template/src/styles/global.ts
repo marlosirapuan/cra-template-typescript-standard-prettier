@@ -8,7 +8,8 @@ export default createGlobalStyle`
   box-sizing: border-box;
 
   body, html {
-    background: #3a4db4;
+    background: rgb(58,77,180);
+    background: linear-gradient(146deg, rgba(58,77,180,1) 0%, rgba(0,184,254,1) 100%);
     color: #fff;
     -webkit-font-smoothing: antialised;
   }
