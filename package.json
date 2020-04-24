@@ -1,0 +1,36 @@
+{
+  "name": "cra-template-typescript-standard-prettier",
+  "version": "1.0.3",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "standard",
+    "standardjs",
+    "prettier",
+    "axios",
+    "react-router-dom",
+    "react-icons",
+    "styled-components",
+    "editorconfig"
+  ],
+  "description": "The base TypeScript template for Create React App with StandardJS/Prettier and some essential libs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlosirapuan/cra-template-typescript-standard-prettier.git",
+    "directory": "packages/cra-template-typescript-standard-prettier"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/marlosirapuan/cra-template-typescript-standard-prettier/issues"
+  },
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
