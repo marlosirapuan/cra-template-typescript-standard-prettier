@@ -6,16 +6,16 @@ TypeScript template for [Create React App](https://github.com/facebook/create-re
 
 Please attention with the steps below:
 
-To use this template, add `--template https://github.com/marlosirapuan/cra-template-typescript-standard-prettier` when creating a new app.
+To use this template, add `--template typescript-standard-prettier` when creating a new app.
 
 For example:
 
 ```sh
-yarn create react-app my-app --template https://github.com/marlosirapuan/cra-template-typescript-standard-prettier
+yarn create react-app my-app --template typescript-standard-prettier
 
 # or
 
-npx create-react-app my-app --template https://github.com/marlosirapuan/cra-template-typescript-standard-prettier
+npx create-react-app my-app --template typescript-standard-prettier
 ```
 
 **IMPORTANT**
