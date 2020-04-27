@@ -63,8 +63,7 @@ my-app
 │   ├── App.css
 │   ├── App.tsx
 │   ├── App.test.tsx
-│   ├── index.tsx
-│   └── routes.js
+│   └── index.tsx
 ├── .editorconfig
 ├── .editorignore
 ├── .eslintrc.json
