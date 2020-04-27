@@ -30,6 +30,64 @@ yarn setup
 npm run setup-npm
 ```
 
+To be clear, you need to run, by example:
+
+```
+yarn create react-app my-app --template typescript-standard-prettier
+yarn setup
+```
+
+## Folder structure
+
+```bash
+my-app
+├── src/
+│   ├── api/
+│   │   └── index.ts
+│   ├── compoments/
+│   ├── pages/
+│   │   ├── About/
+│   │   │   └── About.tsx
+│   │   │   └── styles.ts
+│   │   ├── Home/
+│   │   │   └── Home.tsx
+│   │   │   └── styles.ts
+│   │   └── Restrict/
+│   │       └── Restrict.tsx
+│   │       └── styles.ts
+│   ├── routes/
+│   │   ├── index.tsx
+│   │   └── Route.tsx
+│   ├── styles/
+│   │   └── global.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── App.test.tsx
+│   ├── index.tsx
+│   └── routes.js
+├── .editorconfig
+├── .editorignore
+├── .eslintrc.json
+├── .gitignore
+├── prettier.config.js
+├── README.md
+└── tsconfig.json
+```
+
+You can remove `App.css` file. This file is generated automatically by cra.
+
+This template is configured with an absolute path, so you can use it like this:
+
+```typescript
+import { Home, Page } from 'pages'
+```
+
+Instead:
+
+```typescript
+import { Home, Page } from '../pages'
+```
+
 ## Editor integration
 
 ### VSCode
