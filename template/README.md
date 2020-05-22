@@ -87,12 +87,21 @@ And these extensions to best integration (Prettier extension it's not necessary!
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-Change your `settings.json`:
+Change your `settings.json` to fix all:
 
 ```
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+```
+or specific:
+
+```
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
 ```
 
 That's it. Reload the window or restart your VSCode to load config.
