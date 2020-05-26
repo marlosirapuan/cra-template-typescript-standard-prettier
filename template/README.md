@@ -2,6 +2,14 @@
 
 TypeScript template for [Create React App](https://github.com/facebook/create-react-app) with standardjs (eslint), prettier, editorconfig, axios, react-router-dom, react-icons and styled-components.
 
+Versions to this template:
+```
+typescript: ~3.7.2
+@typescript-eslint/eslint-plugin: ^2.29.0
+@typescript-eslint/parser: ^2.29.0
+eslint: ^6.8.0
+```
+
 **IMPORTANT**
 
 Due to an eslint config limitation **you have to install all dependencies** that this config uses manually with:
@@ -24,6 +32,13 @@ Tests with:
 
 ```
 yarn test
+```
+
+Oh, if you want you can remove from `package.json` the script commands after run setup:
+```
+"setup": "...",
+"setup-yarn": "...",
+"setup-npm": "..."
 ```
 
 ## Folder structure
