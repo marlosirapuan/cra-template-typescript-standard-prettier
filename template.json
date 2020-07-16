@@ -12,7 +12,7 @@
       "react-dom": "latest",
       "react-scripts": "latest",
       "react-spring": "latest",
-      "typescript": "~3.7.2",
+      "typescript": "~3.8.0",
 
       "axios": "latest",
       "react-router-dom": "latest",
