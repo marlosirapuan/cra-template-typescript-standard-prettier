@@ -12,7 +12,7 @@
       "react-dom": "latest",
       "react-scripts": "latest",
       "react-spring": "latest",
-      "typescript": "~3.8.0",
+      "typescript": "~3.9.7",
 
       "axios": "latest",
       "react-router-dom": "latest",
@@ -20,9 +20,9 @@
       "react-icons": "latest"
     },
     "scripts": {
-      "setup": "yarn add -D prettier @types/react-router-dom @types/styled-components @typescript-eslint/eslint-plugin@^2.29.0 @typescript-eslint/parser@^2.29.0 eslint@^6.8.0 eslint-config-prettier eslint-config-standard eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard",
+      "setup": "yarn add -D prettier @types/react-router-dom @types/styled-components @typescript-eslint/eslint-plugin@^4.7.0 @typescript-eslint/parser@^4.7.0 eslint-config-prettier eslint-config-standard-with-typescript eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard",
       "setup-yarn": "yarn setup",
-      "setup-npm": "npm install --save-dev prettier @types/react-router-dom @types/styled-components @typescript-eslint/eslint-plugin@^2.29.0 @typescript-eslint/parser@^2.29.0 eslint@^6.8.0 eslint-config-prettier eslint-config-standard eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard"
+      "setup-npm": "npm install --save-dev prettier @types/react-router-dom @types/styled-components @typescript-eslint/eslint-plugin@^4.7.0 @typescript-eslint/parser@^4.7.0 eslint-config-prettier eslint-config-standard-with-typescript eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard"
     }
   }
 }

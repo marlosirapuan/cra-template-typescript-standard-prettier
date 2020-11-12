@@ -20,10 +20,9 @@ npx create-react-app my-app --template typescript-standard-prettier
 
 Versions to this template:
 ```
-typescript: ~3.8.0
-@typescript-eslint/eslint-plugin: ^2.29.0
-@typescript-eslint/parser: ^2.29.0
-eslint: ^6.8.0
+typescript: ~3.9.7
+@typescript-eslint/eslint-plugin: ^4.7.0
+@typescript-eslint/parser: ^4.7.0
 ```
 
 **IMPORTANT**
@@ -108,9 +107,9 @@ And these extensions to best integration (Prettier extension it's not necessary!
 Change your `settings.json` to fix all:
 
 ```
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
 ```
 or specific:
 
