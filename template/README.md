@@ -4,7 +4,7 @@ TypeScript template for [Create React App](https://github.com/facebook/create-re
 
 Versions to this template:
 ```
-typescript: ~3.9.7
+typescript: ^4.0.3
 @typescript-eslint/eslint-plugin: ^4.7.0
 @typescript-eslint/parser: ^4.7.0
 ```
