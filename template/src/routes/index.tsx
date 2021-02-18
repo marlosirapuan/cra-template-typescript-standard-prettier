@@ -5,7 +5,7 @@ import Route from './Route'
 
 import { Home, About } from 'pages'
 
-const Routes: React.FC = () => (
+const Routes = (): JSX.Element => (
   <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/about" component={About} />

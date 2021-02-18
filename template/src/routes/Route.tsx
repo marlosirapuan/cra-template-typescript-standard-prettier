@@ -10,11 +10,11 @@ interface RouteProps extends ReactRouteProps {
   component: React.ComponentType
 }
 
-const Route: React.FC<RouteProps> = ({
+const Route = ({
   isPrivate = false,
   component: Component,
   ...rest
-}) => {
+}: RouteProps): JSX.Element => {
   // your can put your logic here to check if user is authenticated
   // with prop isPrivate and handle const below
   const authenticated = false
