@@ -41,6 +41,7 @@ To be clear, you need to run, by example:
 
 ```
 yarn create react-app my-app --template typescript-standard-prettier
+cd my-app
 yarn setup
 ```
 

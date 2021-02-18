@@ -11,7 +11,7 @@ typescript: ^4.0.3
 
 **IMPORTANT**
 
-Due to an eslint config limitation **you have to install all dependencies** that this config uses manually with:
+Due to an eslint config limitation **you have to install all dependencies** that this config uses manually with (inside the project):
 
 ```sh
 yarn setup
