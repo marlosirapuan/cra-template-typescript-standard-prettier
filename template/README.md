@@ -16,7 +16,7 @@ Due to an eslint config limitation **you have to install all dependencies** that
 ```sh
 yarn setup
 
-# or
+# or (if you use npm)
 
 npm run setup-npm
 ```
