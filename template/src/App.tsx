@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 import GlobalStyle from './styles/global'
 
-import Routes from './routes'
+import { Routes } from './routes'
 
 const App = (): JSX.Element => (
   <Router>

@@ -4,7 +4,7 @@ import { FiSun, FiArrowRight } from 'react-icons/fi'
 
 import { Container, Header, Content } from './styles'
 
-const Restrict = (): JSX.Element => {
+export const Restrict = (): JSX.Element => {
   return (
     <Container>
       <Header>
@@ -21,5 +21,3 @@ const Restrict = (): JSX.Element => {
     </Container>
   )
 }
-
-export default Restrict

@@ -4,7 +4,7 @@ import { FiHome, FiArrowLeft } from 'react-icons/fi'
 
 import { Container, Header, Content } from './styles'
 
-const About = (): JSX.Element => {
+export const About = (): JSX.Element => {
   return (
     <Container>
       <Header>
@@ -21,5 +21,3 @@ const About = (): JSX.Element => {
     </Container>
   )
 }
-
-export default About

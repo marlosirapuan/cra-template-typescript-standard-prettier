@@ -10,7 +10,7 @@ interface RouteProps extends ReactRouteProps {
   component: React.ComponentType
 }
 
-const Route = ({
+export const Route = ({
   isPrivate = false,
   component: Component,
   ...rest
@@ -37,5 +37,3 @@ const Route = ({
     />
   )
 }
-
-export default Route

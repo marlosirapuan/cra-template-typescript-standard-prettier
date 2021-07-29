@@ -4,7 +4,7 @@ import { FiSun, FiArrowRight } from 'react-icons/fi'
 
 import { Container, Header, Content } from './styles'
 
-const Home = (): JSX.Element => {
+export const Home = (): JSX.Element => {
   return (
     <Container>
       <Header>
@@ -21,5 +21,3 @@ const Home = (): JSX.Element => {
     </Container>
   )
 }
-
-export default Home
