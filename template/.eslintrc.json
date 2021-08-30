@@ -37,6 +37,8 @@
     "react/prop-types": "off",
     "react/no-children-prop": "off",
     "react/jsx-one-expression-per-line": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/camelcase": "off",
