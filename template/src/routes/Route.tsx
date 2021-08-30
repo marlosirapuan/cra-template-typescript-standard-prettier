@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   RouteProps as ReactRouteProps,
   Route as ReactRoute,
