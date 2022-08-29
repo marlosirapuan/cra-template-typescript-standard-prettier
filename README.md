@@ -64,8 +64,7 @@ my-app
 │   │       └── Restrict.tsx
 │   │       └── styles.ts
 │   ├── routes/
-│   │   ├── index.tsx
-│   │   └── Route.tsx
+│   │   └── index.tsx
 │   ├── styles/
 │   │   └── global.ts
 │   ├── App.css
