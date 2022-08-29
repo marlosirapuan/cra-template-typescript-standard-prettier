@@ -20,9 +20,9 @@ npx create-react-app my-app --template typescript-standard-prettier
 
 Versions to this template:
 ```
-typescript: ^4.0.3
-@typescript-eslint/eslint-plugin: ^4.7.0
-@typescript-eslint/parser: ^4.7.0
+typescript: ^4.6.4
+@typescript-eslint/eslint-plugin: ^5.23.0
+@typescript-eslint/parser: ^5.23.0
 ```
 
 **IMPORTANT**
@@ -108,7 +108,7 @@ Change your `settings.json` to fix all:
 
 ```
   "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+    "source.fixAll.eslint": true
   },
 ```
 or specific:
