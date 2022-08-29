@@ -1,13 +1,10 @@
-import React from 'react'
-import { Switch } from 'react-router-dom'
-
-import { Route } from './Route'
+import { Route, Routes as MainRoutes } from 'react-router-dom'
 
 import { Home, About } from 'pages'
 
 export const Routes = (): JSX.Element => (
-  <Switch>
-    <Route path="/" exact component={Home} />
-    <Route path="/about" component={About} />
-  </Switch>
+  <MainRoutes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+  </MainRoutes>
 )

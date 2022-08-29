@@ -4,11 +4,9 @@ import GlobalStyle from './styles/global'
 
 import { Routes } from './routes'
 
-const App = (): JSX.Element => (
+export const App = (): JSX.Element => (
   <Router>
     <Routes />
     <GlobalStyle />
   </Router>
 )
-
-export default App
